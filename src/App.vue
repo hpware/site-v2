@@ -3,6 +3,7 @@ import Footer from './components/Footer.vue'
 import Socials from'./components/Socials.vue'
 import SideStuff from './components/SideStuff.vue'
 import Loadingbar from './components/Loadingbar.vue'
+import Gitstats from './components/Gitstats.vue'
 const golink = new URLSearchParams(window.location.search).get('go');
 if (golink == "ig") {window.location.href = "https://www.instagram.com/yh_.5_26/"; }
 else if (golink == "gh") {window.location.href = "https://github.com/hpware";}
@@ -18,6 +19,7 @@ else if (golink == "res") {window.location.href = "https://github.com/hpware/sit
     <div class="wrapper">
       <Socials />
     </div>
+
   </header>
   <main>
      <SideStuff />
