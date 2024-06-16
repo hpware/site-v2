@@ -3,6 +3,11 @@ import TheWelcome from './components/TheWelcome.vue'
 import Footer from './components/Footer.vue'
 import Socials from'./components/Socials.vue'
 import SideStuff from './components/SideStuff.vue'
+const golink = new URLSearchParams(window.location.search).get('go');
+if (golink == "ig") {window.location.href = "https://www.instagram.com/yh_.5_26/";}
+else if (golink == "gh") {window.location.href = "https://github.com/hpware";}
+else if (golink == "th") {window.location.href = "https://threads.net/yh_.5_26";}
+else if (golink == "blog") {window.location.href = "https://blog.hpware.hwtw.cc"}
 </script>
 
 <template>
