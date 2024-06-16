@@ -15,7 +15,7 @@ else if (golink == "res") {window.location.href = "https://github.com/hpware/sit
 
 <template>
   <header>
-    <img alt="hpware" class="logo" style="border-radius: 50%;" src="https://raw.githubusercontent.com/hpware/site-v2-storage/main/img/index-pfp.png" />
+    <img alt="hpware" class="logo" style="border-radius: 50%;" src="https://storage.hpware.hwtw.cc/img/index-pfp.png" />
     <div class="wrapper">
       <Socials />
     </div>
