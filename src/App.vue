@@ -8,6 +8,7 @@ if (golink == "ig") {window.location.href = "https://www.instagram.com/yh_.5_26/
 else if (golink == "gh") {window.location.href = "https://github.com/hpware";}
 else if (golink == "th") {window.location.href = "https://threads.net/yh_.5_26";}
 else if (golink == "blog") {window.location.href = "https://blog.hpware.hwtw.cc"}
+else if (golink == "pgp") {window.location.href = "pgp.txt"}
 </script>
 
 <template>
