@@ -1,6 +1,5 @@
 <script setup lang="ts">
 //IMPORT COMPONENTS
-import { SpeedInsights } from "@vercel/speed-insights/vue"
 import Footer from './components/Footer.vue'
 import Socials from'./components/Socials.vue'
 import SideStuff from './components/SideStuff.vue'
