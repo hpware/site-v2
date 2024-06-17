@@ -39,6 +39,20 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  transition: filter 300ms;
+
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #444444aa);
+}
+.gitstats {
+  display: block;
+  margin: 0 auto 2rem;
+  transition: filter 300ms;
+
+}
+.gitstats:hover {
+  filter: drop-shadow(0 0 2em #444444aa);
 }
 
 @media (min-width: 1024px) {

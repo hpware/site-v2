@@ -25,6 +25,12 @@
         </ul>
         <br>
         <hr>
+        <h1>Posts</h1>
+        <ul>
+            <li><a href="/l.htm?id=1">#1 Setting Up</a></li>
+        </ul>
+        <br>
+        <hr>
         <h1>社群連結</h1>
         <ul style="list-style-type: none;"> 
             <li>Instagram <a href="/?go=ig">yh_.5_26</a></li>
