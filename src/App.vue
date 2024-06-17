@@ -17,7 +17,7 @@ else if (golink == "em") {window.location.href = "mailto:hw@hwtw.cc"}
 </script>
 <template>
   <header>
-    <img alt="hpware" class="logo" style="border-radius: 50%;" src="https://storage.hpware.hwtw.cc/img/index-pfp.png" />
+<img alt="hpware" class="logo" style="border-radius: 50%;" src="https://storage.hpware.hwtw.cc/img/index-pfp.png" />
     <div class="wrapper">
       <Socials />
     </div>
