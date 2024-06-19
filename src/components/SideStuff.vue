@@ -36,6 +36,7 @@ import Link from './Link.vue'
         <section id="posts">
         <h1>Posts<a href='#posts'><Link/></a></h1>
         <ul>
+            <li><a href="/l.htm?id=2">#2 機器人?</a></li>
             <li><a href="/l.htm?id=1">#1 Setting Up</a></li>
         </ul>
         </section>
