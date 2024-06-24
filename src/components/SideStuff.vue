@@ -8,6 +8,7 @@ import Link from './Link.vue'
         <p>我是一個學生，準備在臺灣就讀有關資訊工程的五專。</p>
         <p>熟悉 HTML, CSS , Vercel , Debian CLI 與 MacOS CLI </p>
         <p>國中畢業後，正要學習 Vuejs , .NET Core , Python , TypeScript 開發語言 :)</p>
+        <p>對了所有我寫的東西都(應該)有包含PGP</p>
         </section>
         <br>
         <hr>
@@ -36,7 +37,7 @@ import Link from './Link.vue'
         <section id="posts">
         <h1>Posts<a href='#posts'><Link/></a></h1>
         <ul>
-            <li><a href="/l.htm?id=2">#2 機器人?</a></li>
+            <li><a href="/l.htm?id=2">#2 機器人? </a></li>
             <li><a href="/l.htm?id=1">#1 Setting Up</a></li>
         </ul>
         </section>
