@@ -3,8 +3,8 @@
 import Footer from './components/Footer.vue'
 import Socials from'./components/Socials.vue'
 import SideStuff from './components/SideStuff.vue'
-import Loadingbar from './components/Loadingbar.vue'
 import Gitstats from './components/Gitstats.vue'
+import Remainiginfo1 from './components/Remain-ig-info1.vue'
 // REDIRECT LINKS
 const golink = new URLSearchParams(window.location.search).get('go');
 if (golink == "ig") {window.location.href = "https://www.instagram.com/yh_.5_26/"; }
@@ -14,6 +14,8 @@ else if (golink == "blog") {window.location.href = "https://blog.hpware.hwtw.cc"
 else if (golink == "pgp") {window.location.href = "pgp.txt"}
 else if (golink == "res") {window.location.href = "https://github.com/hpware/site-v2"}
 else if (golink == "em") {window.location.href = "mailto:hw@hwtw.cc"}
+// STUFF
+const corestuff = new URLSearchParams(window.location.search).get('core');
 </script>
 <template>
   <header>
@@ -24,7 +26,10 @@ else if (golink == "em") {window.location.href = "mailto:hw@hwtw.cc"}
 
   </header>
   <main>
-     <SideStuff />
+    <div v-if="corestuff = 'remain-ig-info'">
+      <Remainiginfo1 />
+     </div>
+      <SideStuff />
   </main>
   <footer>
     <Footer />
