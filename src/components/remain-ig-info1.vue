@@ -1,4 +1,4 @@
-<script lang="ts">
+<script setup lang="ts">
 import Link from './Link.vue'
 </script>
 <template>
