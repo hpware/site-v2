@@ -3,8 +3,6 @@
 import Footer from './components/Footer.vue'
 import Socials from'./components/Socials.vue'
 import SideStuff from './components/SideStuff.vue'
-import Gitstats from './components/Gitstats.vue'
-import Remainiginfo1 from './components/Remain-ig-info1.vue'
 // REDIRECT LINKS
 const golink = new URLSearchParams(window.location.search).get('go');
 if (golink == "ig") {window.location.href = "https://www.instagram.com/yh_.5_26/"; }
@@ -26,9 +24,6 @@ const corestuff = new URLSearchParams(window.location.search).get('core');
 
   </header>
   <main>
-    <div v-if="corestuff = 'remain-ig-info'">
-      <Remainiginfo1 />
-     </div>
       <SideStuff />
   </main>
   <footer>
