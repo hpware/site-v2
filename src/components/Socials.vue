@@ -4,7 +4,7 @@ import Gitstats from './Gitstats.vue'
 <template>
     <div>
         <h1>name: {吳元皓}</h1>
-        <h2>url: {hpware.hwtw.cc}</h2>
+        <h2>url: {v2.yuanh.xyz}</h2>
         <p>config: {討厭 white mode}
         <br>GitHub 的 Stats</p>
         <Gitstats />
