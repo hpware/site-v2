@@ -36,7 +36,7 @@ import Link from './Link.vue'
         <hr>
         <section id="posts">
         <h1>Posts<a href='#posts'><Link/></a></h1>
-        <h2><a href="https://hwtw.cc">新版</a></h2>
+        <h2><a href="https://yuanh.xyz">新版</a>&nbsp;&nbsp;<a href="https://blog.hpware.hwtw.cc/">舊版</a></h2>
         </section>
         <br>
         <hr>
