@@ -1,35 +1,82 @@
-@import './base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+body {
+  background-color: #232730;
+  color: white;
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
 }
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+a {
+  color: aquamarine;
 }
-
-@media (hover: hover) {
+a:hover {
+  color: #4f9e83;
+}
+nav {
+  align-items: center;
+  padding: 1em 2em;
+  a {
+    color: white;
+    text-decoration: none;
+  }
   a:hover {
-    background-color: hsla(221, 81%, 38%, 0.2);
+    color: #b3b3b3;
   }
 }
+hr {
+  align-items: center;
+  text-align: center;
+  width:80%;
+}
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+footer {
+  text-align:center;
+  p {
+    font-size: 0.8em;
+    margin-bottom: 0;
   }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+  a {
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+}
+br.mobile {
+  display:none;
+}
+br.desktop {
+  display: block;
+}
+span.mobile {
+  display:none;
+}
+span.desktop {
+  display: block;
+}
+@media (max-width: 502px) {
+  br.mobile {
+    display: block;
+  }
+  br.desktop {
+    display: none;
+  }
+  span.mobile {
+       display: block;
+     }
+  span.desktop {
+    display: none;
   }
 }

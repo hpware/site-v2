@@ -1,0 +1,15 @@
+<script setup lang="ts">
+const golink = new URLSearchParams(window.location.search).get('go');
+if (golink == "ig") {window.location.href = "https://www.instagram.com/yh_.5_26/"; }
+else if (golink == "gh") {window.location.href = "https://github.com/hpware";}
+else if (golink == "th") {window.location.href = "https://threads.net/yh_.5_26";}
+else if (golink == "blog") {window.location.href = "https://blog.hpware.hwtw.cc"}
+else if (golink == "res") {window.location.href = "https://github.com/hpware/site-v2"}
+else if (golink == "em") {window.location.href = "mailto:hw@hwtw.cc"}
+else if (golink == "oldsite") {window.location.href = "https://3002.hwtw.cc"}
+else if (golink == "vercelcom") {window.location.href = "https://vercel.com"}
+else if (golink == "vitejsdev") {window.location.href = "https://vitejs.dev"}
+</script>
+<template>
+  <h1>Redirecting...</h1>
+</template>
